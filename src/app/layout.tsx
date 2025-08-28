@@ -15,7 +15,7 @@ export default function RootLayout({
 	return (
 		<html lang="ja">
 			<body
-				className="dark antialiased"
+				className="antialiased"
 				style={{
 					fontFamily:
 						'"Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "游ゴシック", YuGothic, sans-serif',
