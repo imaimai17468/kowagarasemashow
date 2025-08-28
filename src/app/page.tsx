@@ -1,11 +1,15 @@
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function Home() {
 	return (
-		<div className="my-[10%] space-y-16">
-			<h1 className="font-bold text-4xl">Hello World</h1>
-			<p className="text-lg">This is a test</p>
-			<Button>Click me</Button>
+		<div className="flex min-h-screen items-center justify-center">
+			<Image
+				src="/shark.jpeg"
+				alt="サメ"
+				width={500}
+				height={500}
+				className="object-contain"
+			/>
 		</div>
 	);
 }
